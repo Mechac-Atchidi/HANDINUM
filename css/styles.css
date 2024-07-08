@@ -17,10 +17,10 @@
 
 /* debut de style d'entete */
 
-.navbar{
+.navbar {
     height: 97px;
     background-color: #ffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.252);
+    box-shadow: 0px 4px 4px rgba( 0, 0, 0, 252);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,6 +33,7 @@
 
 .group-link li{
     list-style: none;
+    display: flex;
 }
 
 .group-link li a{
@@ -54,7 +55,7 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 300px;
     font-style: normal;
 }
 
@@ -70,15 +71,16 @@
     h1{
         color: #204898;
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
        text-align: left;
-        font-size: 90px;
+        font-size: 80px;
     }
-
     p{
-        font-size: 40px;
+
+        font-size: 25px;
         text-align: left;
         justify-content: left;
+        margin-bottom: 20px;
     }
     
     img.align-left {
